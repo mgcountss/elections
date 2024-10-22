@@ -1,0 +1,2701 @@
+[
+    {
+        "raceName": "General",
+        "stateCode": "AK",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Lisa",
+                    "middleInitial": "",
+                    "lastName": "Murkowski",
+                    "npid": 6021
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Patricia",
+                    "middleInitial": "",
+                    "lastName": "Chesbro",
+                    "npid": 7172
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "",
+                    "middleInitial": "",
+                    "lastName": "Total Write-Ins",
+                    "npid": 7402
+                },
+                "partyCode": "AO",
+                "partyName": "Other",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Buzz",
+                    "middleInitial": "",
+                    "lastName": "Kelley",
+                    "npid": 7380
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Kelly",
+                    "middleInitial": "",
+                    "lastName": "Tshibaka",
+                    "npid": 7384
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "AL",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Will",
+                    "middleInitial": "",
+                    "lastName": "Boyd",
+                    "npid": 6047
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Katie",
+                    "middleInitial": "",
+                    "lastName": "Britt",
+                    "npid": 6052
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "John",
+                    "middleInitial": "",
+                    "lastName": "Sophocleus",
+                    "npid": 6320
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "AR",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "John",
+                    "middleInitial": "",
+                    "lastName": "Boozman",
+                    "npid": 11958
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Natalie",
+                    "middleInitial": "",
+                    "lastName": "James",
+                    "npid": 13951
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Kenneth",
+                    "middleInitial": "",
+                    "lastName": "Cates",
+                    "npid": 14273
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "AZ",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Marc",
+                    "middleInitial": "",
+                    "lastName": "Victor",
+                    "npid": 10801
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Mark",
+                    "middleInitial": "",
+                    "lastName": "Kelly",
+                    "npid": 10393
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Blake",
+                    "middleInitial": "",
+                    "lastName": "Masters",
+                    "npid": 10521
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "CA",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Alex",
+                    "middleInitial": "",
+                    "lastName": "Padilla",
+                    "npid": 22831
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Mark",
+                    "middleInitial": "",
+                    "lastName": "Meuser",
+                    "npid": 22839
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "CO",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Michael",
+                    "middleInitial": "",
+                    "lastName": "Bennet",
+                    "npid": 12369
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Frank",
+                    "middleInitial": "",
+                    "lastName": "Atwood",
+                    "npid": 14091
+                },
+                "partyCode": "AV",
+                "partyName": "Approval Voting Party",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "T.J.",
+                    "middleInitial": "",
+                    "lastName": "Cole",
+                    "npid": 14097
+                },
+                "partyCode": "UY",
+                "partyName": "Unity",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Joe",
+                    "middleInitial": "",
+                    "lastName": "O'Dea",
+                    "npid": 13878
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Brian",
+                    "middleInitial": "",
+                    "lastName": "Peotter",
+                    "npid": 14096
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "CT",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Richard",
+                    "middleInitial": "",
+                    "lastName": "Blumenthal",
+                    "npid": 19238
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Leora",
+                    "middleInitial": "",
+                    "lastName": "Levy",
+                    "npid": 22531
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "FL",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Marco",
+                    "middleInitial": "",
+                    "lastName": "Rubio",
+                    "npid": 19377
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Val",
+                    "middleInitial": "",
+                    "lastName": "Demings",
+                    "npid": 23167
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Dennis",
+                    "middleInitial": "",
+                    "lastName": "Misigoy",
+                    "npid": 23716
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Steven",
+                    "middleInitial": "",
+                    "lastName": "Grant",
+                    "npid": 23717
+                },
+                "partyCode": "NF",
+                "partyName": "No Party Affiliation",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Tuan",
+                    "middleInitial": "",
+                    "lastName": "Nguyen",
+                    "npid": 23718
+                },
+                "partyCode": "NF",
+                "partyName": "No Party Affiliation",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "GA",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Raphael",
+                    "middleInitial": "",
+                    "lastName": "Warnock",
+                    "npid": 22499
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Herschel",
+                    "middleInitial": "",
+                    "lastName": "Walker",
+                    "npid": 22554
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Chase",
+                    "middleInitial": "",
+                    "lastName": "Oliver",
+                    "npid": 23069
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "HI",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Brian",
+                    "middleInitial": "",
+                    "lastName": "Schatz",
+                    "npid": 18740
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Bob",
+                    "middleInitial": "",
+                    "lastName": "McDermott",
+                    "npid": 19997
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Feena",
+                    "middleInitial": "",
+                    "lastName": "Bonoan",
+                    "npid": 20380
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Emma",
+                    "middleInitial": "",
+                    "lastName": "Pohlman",
+                    "npid": 20381
+                },
+                "partyCode": "Gr",
+                "partyName": "Green",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Dan",
+                    "middleInitial": "",
+                    "lastName": "Decker",
+                    "npid": 20382
+                },
+                "partyCode": "AA",
+                "partyName": "Aloha Aina Party",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "IA",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Chuck",
+                    "middleInitial": "",
+                    "lastName": "Grassley",
+                    "npid": 22629
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Michael",
+                    "middleInitial": "",
+                    "lastName": "Franken",
+                    "npid": 23712
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "ID",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Mike",
+                    "middleInitial": "",
+                    "lastName": "Crapo",
+                    "npid": 18399
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Ray",
+                    "middleInitial": "",
+                    "lastName": "Writz",
+                    "npid": 19796
+                },
+                "partyCode": "CS",
+                "partyName": "Constitution",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "David",
+                    "middleInitial": "",
+                    "lastName": "Roth",
+                    "npid": 19534
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Sierra",
+                    "middleInitial": "",
+                    "lastName": "Law",
+                    "npid": 19797
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Scott",
+                    "middleInitial": "",
+                    "lastName": "Cleveland",
+                    "npid": 19821
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "IL",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Tammy",
+                    "middleInitial": "",
+                    "lastName": "Duckworth",
+                    "npid": 27492
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Bill",
+                    "middleInitial": "",
+                    "lastName": "Redpath",
+                    "npid": 29587
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Kathy",
+                    "middleInitial": "",
+                    "lastName": "Salvi",
+                    "npid": 29193
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "IN",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Todd",
+                    "middleInitial": "",
+                    "lastName": "Young",
+                    "npid": 22752
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Thomas",
+                    "middleInitial": "",
+                    "lastName": "McDermott",
+                    "npid": 22751
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "James",
+                    "middleInitial": "",
+                    "lastName": "Sceniak",
+                    "npid": 22753
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "KS",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Jerry",
+                    "middleInitial": "",
+                    "lastName": "Moran",
+                    "npid": 5661
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Mark",
+                    "middleInitial": "",
+                    "lastName": "Holland",
+                    "npid": 7631
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "David",
+                    "middleInitial": "",
+                    "lastName": "Graham",
+                    "npid": 7804
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "KY",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Rand",
+                    "middleInitial": "",
+                    "lastName": "Paul",
+                    "npid": 5617
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Charles",
+                    "middleInitial": "",
+                    "lastName": "Booker",
+                    "npid": 6540
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "Open Primary",
+        "stateCode": "LA",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "Open Primary",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "John",
+                    "middleInitial": "",
+                    "lastName": "Kennedy",
+                    "npid": 25319
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Vinny",
+                    "middleInitial": "",
+                    "lastName": "Mendoza",
+                    "npid": 25330
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Beryl",
+                    "middleInitial": "",
+                    "lastName": "Billiot",
+                    "npid": 25325
+                },
+                "partyCode": "ND",
+                "partyName": "No Party Desgination",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Devin",
+                    "middleInitial": "",
+                    "lastName": "Graham",
+                    "npid": 25328
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Gary",
+                    "middleInitial": "",
+                    "lastName": "Chambers",
+                    "npid": 25327
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Xan",
+                    "middleInitial": "",
+                    "lastName": "John",
+                    "npid": 25326
+                },
+                "partyCode": "AO",
+                "partyName": "Other",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Aaron",
+                    "middleInitial": "",
+                    "lastName": "Sigler",
+                    "npid": 25334
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "W. Thomas",
+                    "middleInitial": "",
+                    "lastName": "La Fontaine Olson",
+                    "npid": 25329
+                },
+                "partyCode": "ND",
+                "partyName": "No Party Desgination",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Bradley",
+                    "middleInitial": "",
+                    "lastName": "McMorris",
+                    "npid": 25331
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Luke",
+                    "middleInitial": "",
+                    "lastName": "Mixon",
+                    "npid": 25332
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Salvador",
+                    "middleInitial": "",
+                    "lastName": "Rodriguez",
+                    "npid": 25333
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Syrita",
+                    "middleInitial": "",
+                    "lastName": "Steib",
+                    "npid": 25335
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Thomas",
+                    "middleInitial": "",
+                    "lastName": "Wenn",
+                    "npid": 25336
+                },
+                "partyCode": "AO",
+                "partyName": "Other",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "MD",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Chris",
+                    "middleInitial": "",
+                    "lastName": "Van Hollen",
+                    "npid": 30588
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Chris",
+                    "middleInitial": "",
+                    "lastName": "Chaffee",
+                    "npid": 32135
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "MO",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Jonathan",
+                    "middleInitial": "",
+                    "lastName": "Dine",
+                    "npid": 11174
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Eric",
+                    "middleInitial": "",
+                    "lastName": "Schmitt",
+                    "npid": 10829
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Paul",
+                    "middleInitial": "",
+                    "lastName": "Venable",
+                    "npid": 11173
+                },
+                "partyCode": "CS",
+                "partyName": "Constitution",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Trudy",
+                    "middleInitial": "",
+                    "lastName": "Busch Valentine",
+                    "npid": 10826
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "NC",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Cheri",
+                    "middleInitial": "",
+                    "lastName": "Beasley",
+                    "npid": 45548
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Ted",
+                    "middleInitial": "",
+                    "lastName": "Budd",
+                    "npid": 45554
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Shannon",
+                    "middleInitial": "",
+                    "lastName": "Bray",
+                    "npid": 45952
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Matthew",
+                    "middleInitial": "",
+                    "lastName": "Hoh",
+                    "npid": 45991
+                },
+                "partyCode": "Gr",
+                "partyName": "Green",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "ND",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "John",
+                    "middleInitial": "",
+                    "lastName": "Hoeven",
+                    "npid": 40113
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Rick",
+                    "middleInitial": "",
+                    "lastName": "Becker",
+                    "npid": 41413
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Katrina",
+                    "middleInitial": "",
+                    "lastName": "Christiansen",
+                    "npid": 41202
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "NH",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Maggie",
+                    "middleInitial": "",
+                    "lastName": "Hassan",
+                    "npid": 46553
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Donald",
+                    "middleInitial": "",
+                    "lastName": "Bolduc",
+                    "npid": 49932
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Jeremy",
+                    "middleInitial": "",
+                    "lastName": "Kauffman",
+                    "npid": 50885
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "NV",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "",
+                    "middleInitial": "",
+                    "lastName": "None of these candidates",
+                    "npid": 37917
+                },
+                "partyCode": "ND",
+                "partyName": "No Party Desgination",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Catherine",
+                    "middleInitial": "",
+                    "lastName": "Cortez Masto",
+                    "npid": 36172
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Adam",
+                    "middleInitial": "",
+                    "lastName": "Laxalt",
+                    "npid": 37634
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Barry",
+                    "middleInitial": "",
+                    "lastName": "Rubinson",
+                    "npid": 37881
+                },
+                "partyCode": "IA",
+                "partyName": "Independent American",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Barry",
+                    "middleInitial": "",
+                    "lastName": "Lindemann",
+                    "npid": 37880
+                },
+                "partyCode": "NX",
+                "partyName": "NO PARTY PREFERENCE",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Neil",
+                    "middleInitial": "",
+                    "lastName": "Scott",
+                    "npid": 37882
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "NY",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Charles",
+                    "middleInitial": "",
+                    "lastName": "Schumer",
+                    "npid": 77148
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Joe",
+                    "middleInitial": "",
+                    "lastName": "Pinion",
+                    "npid": 86940
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Diane",
+                    "middleInitial": "",
+                    "lastName": "Sare",
+                    "npid": 87236
+                },
+                "partyCode": "AO",
+                "partyName": "Other",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "OH",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Tim",
+                    "middleInitial": "",
+                    "lastName": "Ryan",
+                    "npid": 47401
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "JD",
+                    "middleInitial": "",
+                    "lastName": "Vance",
+                    "npid": 47402
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "OK",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "James",
+                    "middleInitial": "",
+                    "lastName": "Lankford",
+                    "npid": 44647
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Madison",
+                    "middleInitial": "",
+                    "lastName": "Horn",
+                    "npid": 46586
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Kenneth",
+                    "middleInitial": "",
+                    "lastName": "Blevins",
+                    "npid": 46795
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Michael",
+                    "middleInitial": "",
+                    "lastName": "Delaney",
+                    "npid": 46796
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "Special General",
+        "stateCode": "OK",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "Special General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Robert",
+                    "middleInitial": "",
+                    "lastName": "Murphy",
+                    "npid": 46800
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Markwayne",
+                    "middleInitial": "",
+                    "lastName": "Mullin",
+                    "npid": 46798
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Ray",
+                    "middleInitial": "",
+                    "lastName": "Woods",
+                    "npid": 46801
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Kendra",
+                    "middleInitial": "",
+                    "lastName": "Horn",
+                    "npid": 46797
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "OR",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Ron",
+                    "middleInitial": "",
+                    "lastName": "Wyden",
+                    "npid": 4634
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Chris",
+                    "middleInitial": "",
+                    "lastName": "Henry",
+                    "npid": 6421
+                },
+                "partyCode": "PG",
+                "partyName": "Progressive",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Jo Rae",
+                    "middleInitial": "",
+                    "lastName": "Perkins",
+                    "npid": 6149
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Dan",
+                    "middleInitial": "",
+                    "lastName": "Pulju",
+                    "npid": 6422
+                },
+                "partyCode": "PN",
+                "partyName": "Pacific Green",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "PA",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "John",
+                    "middleInitial": "",
+                    "lastName": "Fetterman",
+                    "npid": 53119
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Daniel",
+                    "middleInitial": "",
+                    "lastName": "Wassmer",
+                    "npid": 53552
+                },
+                "partyCode": "KP",
+                "partyName": "Keystone Party of Pennsylvania",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Richard",
+                    "middleInitial": "",
+                    "lastName": "Weiss",
+                    "npid": 53551
+                },
+                "partyCode": "Gr",
+                "partyName": "Green",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Mehmet",
+                    "middleInitial": "",
+                    "lastName": "Oz",
+                    "npid": 53124
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Erik",
+                    "middleInitial": "",
+                    "lastName": "Gerhardt",
+                    "npid": 53524
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "SC",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Tim",
+                    "middleInitial": "",
+                    "lastName": "Scott",
+                    "npid": 48048
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Krystle",
+                    "middleInitial": "",
+                    "lastName": "Matthews",
+                    "npid": 49617
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "SD",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "John",
+                    "middleInitial": "",
+                    "lastName": "Thune",
+                    "npid": 47239
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Brian",
+                    "middleInitial": "",
+                    "lastName": "Bengs",
+                    "npid": 48751
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Tamara",
+                    "middleInitial": "",
+                    "lastName": "Lesnar",
+                    "npid": 48761
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "UT",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Mike",
+                    "middleInitial": "",
+                    "lastName": "Lee",
+                    "npid": 56219
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Tommy",
+                    "middleInitial": "",
+                    "lastName": "Williams",
+                    "npid": 56194
+                },
+                "partyCode": "IA",
+                "partyName": "Independent American",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Evan",
+                    "middleInitial": "",
+                    "lastName": "McMullin",
+                    "npid": 56195
+                },
+                "partyCode": "UN",
+                "partyName": "Unaffiliated",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "James",
+                    "middleInitial": "",
+                    "lastName": "Hansen",
+                    "npid": 56196
+                },
+                "partyCode": "LB",
+                "partyName": "Libertarian",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "VT",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Peter",
+                    "middleInitial": "",
+                    "lastName": "Welch",
+                    "npid": 53965
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Ms. Cris",
+                    "middleInitial": "",
+                    "lastName": "Ericson",
+                    "npid": 54238
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Dawn",
+                    "middleInitial": "",
+                    "lastName": "Ellis",
+                    "npid": 54242
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Gerald",
+                    "middleInitial": "",
+                    "lastName": "Malloy",
+                    "npid": 53969
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Mark",
+                    "middleInitial": "",
+                    "lastName": "Coester",
+                    "npid": 54239
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Stephen",
+                    "middleInitial": "",
+                    "lastName": "Duke",
+                    "npid": 54241
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Kerry",
+                    "middleInitial": "",
+                    "lastName": "Raheb",
+                    "npid": 54240
+                },
+                "partyCode": "I",
+                "partyName": "Independent",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Natasha",
+                    "middleInitial": "",
+                    "lastName": "Diamondstone-Kohout",
+                    "npid": 54326
+                },
+                "partyCode": "GJ",
+                "partyName": "Green Mountain Peace and Justice",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "WA",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Patty",
+                    "middleInitial": "",
+                    "lastName": "Murray",
+                    "npid": 7591
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Tiffany",
+                    "middleInitial": "",
+                    "lastName": "Smiley",
+                    "npid": 9468
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    },
+    {
+        "raceName": "General",
+        "stateCode": "WI",
+        "nextElection": null,
+        "current": null,
+        "called": 0,
+        "precinctsReporting": 0,
+        "expectedPercentage": 0,
+        "raceType": "General",
+        "isFlipped": false,
+        "results": [
+            {
+                "candidate": {
+                    "firstName": "Ron",
+                    "middleInitial": "",
+                    "lastName": "Johnson",
+                    "npid": 26723
+                },
+                "partyCode": "R",
+                "partyName": "Republican",
+                "isWinner": false,
+                "isIncumbent": true,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            },
+            {
+                "candidate": {
+                    "firstName": "Mandela",
+                    "middleInitial": "",
+                    "lastName": "Barnes",
+                    "npid": 28402
+                },
+                "partyCode": "D",
+                "partyName": "Democrat",
+                "isWinner": true,
+                "isIncumbent": false,
+                "votes": {
+                    "count": 0,
+                    "percentage": 0
+                },
+                "delegates": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,499 @@
+[
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T00:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "GA",
+            "SC",
+            "VT"
+        ]
+    },
+    {
+        "race_id": "GA-G-12029",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "SC-G-41191",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "VT-G-46375",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T00:30:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "OH"
+        ]
+    },
+    {
+        "race_id": "OH-G-36005",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T01:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "AL",
+            "MA",
+            "CT",
+            "MD",
+            "ME",
+            "PA",
+            "IL",
+            "OK",
+            "RI",
+            "FL",
+            "NH",
+            "TN"
+        ]
+    },
+    {
+        "race_id": "NH-G-30005",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "FL-G-10045",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "CT-G-7019",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "MA-G-22957",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "RI-G-40005",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "AL-G-1019",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "IL-G-15989",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "ME-G-20646",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "MD-G-22091",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "OK-G-37857",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "PA-G-39292",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "TN-G-43440",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T01:30:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "AR"
+        ]
+    },
+    {
+        "race_id": "AR-G-5626",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T02:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "NY",
+            "CO",
+            "MI",
+            "MN",
+            "KS",
+            "TX",
+            "ND",
+            "IA",
+            "LA",
+            "WI",
+            "NE",
+            "AZ",
+            "SD",
+            "WY"
+        ]
+    },
+    {
+        "race_id": "AZ-G-3014",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "NE-G-28006",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "SD-G-42222",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "WI-G-50016",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "IA-G-17076",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "WY-G-51403",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "CO-G-6619",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "KS-G-17559",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "MI-G-24074",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "MN-G-24704",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "NM-G-32238",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "NY-G-39760",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "TX-G-45901",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T03:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "NV"
+        ]
+    },
+    {
+        "race_id": "NV-G-29861",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T04:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "CA",
+            "ID",
+            "OR",
+            "WA"
+        ]
+    },
+    {
+        "race_id": "ID-G-13676",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "CA-G-6123",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": "OR-G-38019",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T05:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "HI"
+        ]
+    },
+    {
+        "race_id": "HI-G-12480",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    },
+    {
+        "race_id": null,
+        "poll_close": "2022-11-09T06:00:00Z",
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": [
+            "AK"
+        ]
+    },
+    {
+        "race_id": "AK-G-2010",
+        "poll_close": null,
+        "winner": null,
+        "winner_last": null,
+        "winner_first": null,
+        "winner_party": null,
+        "call_time": null,
+        "states": null
+    }
+]

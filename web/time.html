@@ -1,0 +1,25 @@
+<div id="clock" style="text-align: center; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 200px;"></div>
+
+<script>
+    function clock() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        if (h > 12) {
+            h = h - 12;
+        }
+        //check if it's AM or PM
+        var ampm = today.getHours() >= 12 ? 'PM' : 'AM';
+        document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + ampm+" CST";
+        var t = setTimeout(clock, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) {i = "0" + i};
+        return i;
+    }
+    clock()
+    setInterval(clock, 1000)
+</script>

@@ -1,0 +1,170 @@
+<style>
+    .badge-R {
+        background-color: red;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge-D {
+        background-color: blue;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge-I {
+        background-color: purple;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge,
+    .badge-incumbents,
+    .winner {
+        background-color: gray;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .winner {
+        background-color: rgb(223, 213, 80);
+        color: black;
+        margin-left: 5px;
+    }
+
+    #state-display {
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        text-align: center;
+        border: 1px solid black;
+        position: relative;
+    }
+
+    .corner-preview {
+        position: absolute;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .top-left {
+        top: 10px;
+        left: 10px;
+    }
+
+    .top-right {
+        top: 10px;
+        right: 10px;
+    }
+
+    #timer {
+        position: absolute;
+        bottom: 10px;
+        font-size: 18px;
+    }
+
+    #content {
+        padding: 20px;
+        width: 80%;
+    }
+</style>
+
+<div id="state-display">
+    <div id="content"></div>
+    <div id="timer"></div>
+    <div class="corner-preview top-left" id="next-left-preview"></div>
+    <div class="corner-preview top-right" id="next-right-preview"></div>
+</div>
+
+<script src="./states.js"></script>
+<script src="../jquery.js"></script>
+<script>
+    let currentIndex = 0;
+    let data = [];
+
+    function updateDisplay() {
+        const stateData = data[currentIndex];
+        const nextIndex = (currentIndex + 1) % data.length;
+
+        const content = `
+            <h3 style="font-size: 5vw; background-color: black; color: white;">
+                ${states[stateData.stateCode]} <span style="font-size: 15px;">${toCST(stateData.close)}</span>
+            </h3>
+            <hr>
+            <div style="text-align: left;">
+                ${generateRaceContent(stateData.results)}
+            </div>
+        `;
+        document.getElementById('content').innerHTML = content;
+        try {
+            document.getElementById('next-right-preview').textContent = `Next: ${states[data[nextIndex].stateCode]}`;
+        } catch (e) {
+            document.getElementById('next-right-preview').textContent = `Next: ${states[data[0].stateCode]}`;
+        }
+        try {
+            document.getElementById('next-left-preview').textContent = `Previous: ${states[data[nextIndex - 2].stateCode]}`;
+        } catch (e) {
+            document.getElementById('next-left-preview').textContent = `Previous: ${states[data[data.length - 1].stateCode]}`;
+        }
+    }
+
+    function generateRaceContent(results) {
+        return results
+            .sort((a, b) => b.votes.count - a.votes.count)
+            .filter(r => r.candidate.lastName !== 'Total Write-Ins' && r.candidate.lastName !== 'None of these candidates')
+            .slice(0, 5)
+            .map(r => {
+                let badge = `<span class="badge-${r.partyCode || 'default'}">${r.partyCode}</span>`;
+                let incumbent = r.isIncumbent ? `<span class="badge-incumbents">In</span>` : '';
+                let winner = r.isWinner ? `<span class="winner">Winner</span>` : '';
+                return `${badge} ${r.candidate.firstName} ${r.candidate.lastName} ${incumbent}: ${r.votes.count.toLocaleString()} ${winner}<hr>`;
+            })
+            .join('');
+    }
+
+    function startRotation() {
+        let timeLeft = 0;
+        const interval = setInterval(() => {
+            document.getElementById('timer').textContent = `Time left: ${timeLeft--}s`;
+            if (timeLeft < 0) {
+                clearInterval(interval);
+                currentIndex = (currentIndex + 1) % data.length;
+                updateDisplay();
+                startRotation();
+            }
+        }, 1000);
+    }
+
+    function fetchData() {
+        fetch('/api/senate')
+            .then(response => response.json())
+            .then(responseData => {
+                data = responseData;
+                updateDisplay();
+                startRotation();
+            })
+            .catch(err => console.error('Failed to fetch data:', err));
+    }
+
+    function toCST(time) {
+        let date = new Date(time);
+        date.setHours(date.getHours() - 5);
+        let hours = date.getHours();
+        let minutes = String(date.getMinutes()).padStart(2, '0');
+        let ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12 || 12;
+        return `Closes: ${hours}:${minutes} ${ampm} CST`;
+    }
+
+    fetchData();
+</script>

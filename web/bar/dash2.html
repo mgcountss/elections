@@ -1,0 +1,57 @@
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    #bar {
+        width: 100%;
+        height: 20%;
+        background-color: #f1f1f1;
+        text-align: center;
+        border: solid 5px;
+    }
+</style>
+<center>
+    <center style="width: 90%;">
+        <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 0px;">
+            <h1 style="color: blue; font-size: 50px; margin-top: 0px;" id="democrats">0 <span
+                    style="color: #000; font-size: 30px;">Democrats</span></h1>
+            <h1 style="color: red; font-size: 50px; margin-top: 0px;" id="republicians"><span
+                    style="color: #000; font-size: 30px;">Republicans</span> 0</h1>
+        </div>
+        <hr style="margin-top: -30px;">
+        <div id="bar" alt="race to 51"
+            style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 0px;">
+            <div id="democrats-bar" style="background-color: blue; width: 0%; height: 100%;"></div>
+            <div id="unknown-bar" style="background-color: gray; width: 100%; height: 100%;"></div>
+            <div id="republicians-bar" style="background-color: red; width: 0%; height: 100%;"></div>
+        </div>
+        <div style="height: 100px; width: 5px; background-color: #000; margin-top: -50px;"></div>
+    </center>
+</center>
+
+<script>
+    function update() {
+        fetch('/api/total')
+        .then(response => response.json())
+        .then(data => {
+            data = data.senate;
+            var democrats = parseFloat(data[0])
+            var unknown = parseFloat(data[1])
+            var republicians = parseFloat(data[2])
+            var total = democrats + unknown + republicians
+            var democratsPercent = (democrats / total) * 100
+            var unknownPercent = (unknown / total) * 100
+            var republiciansPercent = (republicians / total) * 100
+            document.getElementById("democrats").innerHTML = democrats + " <span style=\"color: #000; font-size: 30px;\">Democrats</span>"
+            document.getElementById("republicians").innerHTML = "<span style=\"color: #000; font-size: 30px;\">Republicans</span> " + republicians
+            document.getElementById("democrats-bar").style.width = democratsPercent + "%"
+            document.getElementById("unknown-bar").style.width = unknownPercent + "%"
+            document.getElementById("republicians-bar").style.width = republiciansPercent + "%"
+        });
+    }
+    update()
+
+    setInterval(update, 10000)
+</script>

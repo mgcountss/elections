@@ -1,0 +1,134 @@
+<style>
+    .badge-R {
+        background-color: red;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge-D {
+        background-color: blue;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge-I {
+        background-color: purple;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge {
+        background-color: gray;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .badge-incumbents {
+        background-color: gray;
+        color: #FFF;
+        padding: 2px 4px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .winner {
+        background-color: rgb(223, 213, 80);
+        color: #000;
+        padding: 2px 4px;
+        text-align: center;
+        border-radius: 15px;
+    }
+</style>
+
+<div id="all" style="width: 100%;"></div>
+
+<script src="./states.js"></script>
+<script src="../jquery.js"></script>
+<script>
+    function update() {
+        fetch('/api/house')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('all').innerHTML = '';
+                for (let i = 0; i < data.length; i++) {
+                    let div = document.createElement('div');
+                    data[i].results = data[i].results.sort((a, b) => b.votes.count - a.votes.count);
+                    let race = '';
+                    for (let j = 0; j < data[i].results.length; j++) {
+                        if (data[i].results[j].candidate.lastName == 'Total Write-Ins' || data[i].results[j].candidate.lastName == 'None of these candidates') {
+
+                        } else {
+                            let otherBadge = '';
+                            let winner = '';
+                            if (data[i].results[j].isWinner == true) {
+                                winner = ' <span class="winner">Winner</span>'
+                            }
+                            if (data[i].results[j].isIncumbent == true) {
+                                otherBadge = ' <span class="badge-incumbents">In</span>';
+                            }
+                            let badge = '<span class="badge">' + data[i].results[j].partyCode + '</span> '
+                            if ((data[i].results[j].partyCode == 'I') || (data[i].results[j].partyCode == 'R') || (data[i].results[j].partyCode == 'D')) {
+                                badge = '<span class="badge-' + data[i].results[j].partyCode + '">' + data[i].results[j].partyCode + '</span> '
+                            }
+                            let div = badge + '' + data[i].results[j].candidate.firstName + ' ' + data[i].results[j].candidate.lastName + '' + otherBadge + ': ' + data[i].results[j].votes.count.toLocaleString() + "" + winner;
+                            race = race + div + '<hr>';
+                        }
+                    }
+                    div.innerHTML = `
+                <div style="width: 100%; border: solid 1px #000; font-family: sans-serif;">
+                        <h3 style="font-size: 5vw; margin-top: 5px; margin-bottom: 0px; background-color: #000; color: #FFF;">${states[data[i].stateCode]}, <span style="font-size: 15px; margin-top: -35px;">${toCST(data[i].close)}</span></h3>
+                        <hr>
+                    ${race}
+                    </div>
+                `;
+                    document.getElementById('all').appendChild(div);
+                }
+                setTimeout(animateScroll, 1500);
+            }).catch(err => {
+                animateScroll()
+            });
+    }
+    update();
+    function animateScroll() {
+        $('html, body').animate({
+            scrollTop: $(document).height()
+        }, 240000, 'linear');
+        setTimeout(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1, 'linear');
+        }, 241500);
+        setTimeout(update, 243000);
+    }
+    function toCST(time) {
+        let date = new Date(time);
+        if (new Date(date) < new Date()) {
+            return 'Closed';
+        }
+        date.setHours(date.getHours() - 5);
+        date = date.toISOString();
+        date = date.split('T');
+        date = date[0] + 'T' + date[1].split('.')[0];
+        date = date.split('T');
+        date[1] = date[1].split(':');
+        let hour = date[1][0];
+        let minute = date[1][1];
+        let second = date[1][2];
+        let ampm = 'AM';
+        if (hour > 12) {
+            hour = hour - 12;
+            ampm = 'PM';
+        }
+        date[1] = hour + ':' + minute + ':' + second + ' ' + ampm;
+        date = date[0] + 'T' + date[1];
+        return "Closes: " + date.split('T')[1] + " CST";
+    }
+</script>

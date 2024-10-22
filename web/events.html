@@ -1,0 +1,59 @@
+<style>
+    .animate-left {
+        position: relative;
+        animation: animateleft 1.5s
+    }
+
+    @keyframes animateleft {
+        from {
+            left: -300px;
+            opacity: 0
+        }
+
+        to {
+            left: 0;
+            opacity: 1
+        }
+    }
+
+    body {
+        background-color: #f1f1f1;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+</style>
+<div id="events">
+</div>
+<script>
+    let data2 = []
+    setInterval(function () {
+        fetch('/api/events')
+            .then(res => res.json())
+            .then(data => {
+                data = data.reverse()
+                for (let i = 0; i < data.length; i++) {
+                    if (data2.includes(data[i]) == false) {
+                        data2.push(data[i])
+                        let div = document.createElement('div')
+                        div.innerHTML = data[i]
+                        div.classList = 'animate-left'
+                        document.getElementById('events').appendChild(div)
+                    }
+                }
+            });
+    }, 10000)
+    fetch('/api/events')
+        .then(res => res.json())
+        .then(data => {
+            data = data.reverse()
+            for (let i = 0; i < data.length; i++) {
+                if (data2.includes(data[i]) == false) {
+                    data2.push(data[i])
+                    let div = document.createElement('div')
+                    div.innerHTML = data[i]
+                    div.classList = 'animate-left'
+                    document.getElementById('events').appendChild(div)
+                }
+            }
+        });
+</script>
